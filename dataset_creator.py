@@ -42,7 +42,7 @@ while(True):
         cv2.waitKey(100)  # Wait for 100ms
     cv2.imshow("Face", img)   # Show the image
     cv2.waitKey(1)   # Wait for 1ms
-    if(sampleNum > 20):   # If 20 images are captured
+    if(sampleNum > 30):   # If 20 images are captured
         break   # Break the loop
 
 cam.release()   # Release the camera
